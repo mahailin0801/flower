@@ -1,0 +1,21 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+
+ul{
+	width: 500px;
+	height: 300px;
+	background: #ccc;
+	margin: 100px auto;
+}
+ul li{
+	width: 100px;
+	height: 100px;
+	background: orange;
+	font-weight: bold;
+	font-size: 30px;
+	color: #fff;
+	line-height: 100px;
+	text-align: center;
+	float: left;
+}
+li:empty{opacity: 0;}
